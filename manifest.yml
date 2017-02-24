@@ -1,0 +1,20 @@
+---
+declared-services:
+  social-media-test-twitter:
+    label: twitterinsights
+    plan: Free
+  social-media-test-personality:
+    label: personality_insights
+    plan: tiered
+  social-media-test-dashdb:
+    label: dashDB
+    plan: Entry
+applications:
+- services:
+  - social-media-test-twitter
+  - social-media-test-personality
+  - social-media-test-dashdb
+  name: personality-insights-cp97oak-1358
+  host: personality-insights-cp97oak-1358
+  path: .
+  memory: 256M

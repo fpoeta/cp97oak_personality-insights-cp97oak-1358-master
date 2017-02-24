@@ -1,0 +1,39 @@
+{
+  "name": "sentiment-analysis-ac",
+  "version": "0.1.0",
+  "description": "A search interface to load Twitter data into a database and perform personality analysis of selected authors",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install --allow-root"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "bower": "~1.4.1",
+    "cfenv": "1.0.x",
+    "express": "4.12.x",
+    "moment": "^2.10.6",
+    "request": "^2.60.0",
+    "yargs": "^3.27.0",
+    "ibm_db": "^0.0.15",
+    "watson-developer-cloud": "^1.0.6",
+    "body-parser": "^1.11.0"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfsworkload/personality-insights.git"
+  },
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "Nathan Chaney",
+      "email": "nrchaney@us.ibm.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://hub.jazz.net/git/cfsworkload/sentiment-analysis-ac"
+  },
+  "license": "Apache-2.0"
+}
